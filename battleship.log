@@ -1,0 +1,921 @@
+2025-06-08 01:36:25,548 - Battleship - INFO - Initializing Battleship v2.0
+2025-06-08 01:36:26,378 - Battleship - INFO - Initializing game components...
+2025-06-08 01:36:26,428 - UIManager - INFO - UIManager initialized
+2025-06-08 01:36:26,486 - ShipManager - INFO - ShipManager initialized
+2025-06-08 01:36:26,736 - BattleManager - INFO - BattleManager initialized
+2025-06-08 01:36:26,807 - Renderer - INFO - Images loaded successfully
+2025-06-08 01:36:26,808 - Renderer - INFO - Renderer initialized
+2025-06-08 01:36:26,808 - GameIntegration - INFO - GameIntegration initialized
+2025-06-08 01:36:26,809 - Battleship - INFO - Components initialized
+2025-06-08 01:36:26,819 - GameState - INFO - Settings loaded successfully
+2025-06-08 01:36:27,081 - Battleship - INFO - Background music initialized
+2025-06-08 01:36:27,082 - Battleship - INFO - Game initialized successfully
+2025-06-08 01:36:27,082 - Battleship - INFO - Starting Battleship v2.0
+2025-06-08 01:36:27,082 - Battleship - INFO - Screen: 1200x650 @ 60 FPS
+2025-06-08 01:36:27,083 - UIManager - INFO - Message added: Welcome to Battleship!
+2025-06-08 01:36:30,168 - GameState - INFO - Game mode set to: singleplayer
+2025-06-08 01:36:30,168 - UIManager - INFO - Message added: Game mode: singleplayer
+2025-06-08 01:36:33,498 - UIManager - INFO - Message added: AI difficulty: hard
+2025-06-08 01:36:34,716 - UIManager - INFO - Starting game in singleplayer mode
+2025-06-08 01:36:34,717 - Battleship - CRITICAL - Unhandled exception: cannot import name 'initialize_ai' from 'ai' (E:\BattleShip\game4_battleship\ai.py)
+Traceback (most recent call last):
+  File "E:\BattleShip\game4_battleship\main.py", line 480, in main
+    game.run()
+    ~~~~~~~~^^
+  File "E:\BattleShip\game4_battleship\main.py", line 442, in run
+    self.update()
+    ~~~~~~~~~~~^^
+  File "E:\BattleShip\game4_battleship\main.py", line 276, in update
+    self.ui_manager.update(mouse_pos, mouse_clicked)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\BattleShip\game4_battleship\ui_manager.py", line 346, in update
+    button.update(mouse_pos, mouse_clicked)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\BattleShip\game4_battleship\ui_manager.py", line 47, in update
+    self.callback()
+    ~~~~~~~~~~~~~^^
+  File "E:\BattleShip\game4_battleship\ui_manager.py", line 515, in on_start_game
+    from ai import initialize_ai
+ImportError: cannot import name 'initialize_ai' from 'ai' (E:\BattleShip\game4_battleship\ai.py)
+2025-06-08 02:00:04,747 - Battleship - INFO - Initializing Battleship v2.0
+2025-06-08 02:00:05,440 - Battleship - INFO - Initializing game components...
+2025-06-08 02:00:05,452 - UIManager - INFO - UIManager initialized
+2025-06-08 02:00:05,453 - ShipManager - INFO - ShipManager initialized
+2025-06-08 02:00:05,587 - BattleManager - INFO - BattleManager initialized
+2025-06-08 02:00:05,616 - Renderer - INFO - Images loaded successfully
+2025-06-08 02:00:05,617 - Renderer - INFO - Renderer initialized
+2025-06-08 02:00:05,618 - GameIntegration - INFO - GameIntegration initialized
+2025-06-08 02:00:05,618 - Battleship - INFO - Components initialized
+2025-06-08 02:00:05,619 - GameState - INFO - Settings loaded successfully
+2025-06-08 02:00:05,829 - Battleship - INFO - Background music initialized
+2025-06-08 02:00:05,829 - Battleship - INFO - Game initialized successfully
+2025-06-08 02:00:05,830 - Battleship - INFO - Starting Battleship v2.0
+2025-06-08 02:00:05,830 - Battleship - INFO - Screen: 1200x650 @ 60 FPS
+2025-06-08 02:00:05,830 - UIManager - INFO - Message added: Welcome to Battleship!
+2025-06-08 02:00:07,739 - GameState - INFO - Game mode set to: singleplayer
+2025-06-08 02:00:07,739 - UIManager - INFO - Message added: Game mode: singleplayer
+2025-06-08 02:00:11,198 - UIManager - INFO - Message added: AI difficulty: expert
+2025-06-08 02:00:13,297 - UIManager - INFO - Starting game in singleplayer mode
+2025-06-08 02:00:13,298 - Battleship - CRITICAL - Unhandled exception: cannot import name 'initialize_ai' from 'ai' (E:\BattleShip\game4_battleship\ai.py)
+Traceback (most recent call last):
+  File "E:\BattleShip\game4_battleship\main.py", line 480, in main
+    game.run()
+    ~~~~~~~~^^
+  File "E:\BattleShip\game4_battleship\main.py", line 442, in run
+    self.update()
+    ~~~~~~~~~~~^^
+  File "E:\BattleShip\game4_battleship\main.py", line 276, in update
+    self.ui_manager.update(mouse_pos, mouse_clicked)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\BattleShip\game4_battleship\ui_manager.py", line 346, in update
+    button.update(mouse_pos, mouse_clicked)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\BattleShip\game4_battleship\ui_manager.py", line 47, in update
+    self.callback()
+    ~~~~~~~~~~~~~^^
+  File "E:\BattleShip\game4_battleship\ui_manager.py", line 515, in on_start_game
+    from ai import initialize_ai
+ImportError: cannot import name 'initialize_ai' from 'ai' (E:\BattleShip\game4_battleship\ai.py)
+2025-06-08 02:02:28,391 - Battleship - INFO - Initializing Battleship v2.0
+2025-06-08 02:02:29,009 - Battleship - INFO - Initializing game components...
+2025-06-08 02:02:29,019 - UIManager - INFO - UIManager initialized
+2025-06-08 02:02:29,021 - ShipManager - INFO - ShipManager initialized
+2025-06-08 02:02:29,148 - BattleManager - INFO - BattleManager initialized
+2025-06-08 02:02:29,178 - Renderer - INFO - Images loaded successfully
+2025-06-08 02:02:29,179 - Renderer - INFO - Renderer initialized
+2025-06-08 02:02:29,180 - GameIntegration - INFO - GameIntegration initialized
+2025-06-08 02:02:29,180 - Battleship - INFO - Components initialized
+2025-06-08 02:02:29,182 - GameState - INFO - Settings loaded successfully
+2025-06-08 02:02:29,410 - Battleship - INFO - Background music initialized
+2025-06-08 02:02:29,411 - Battleship - INFO - Game initialized successfully
+2025-06-08 02:02:29,411 - Battleship - INFO - Starting Battleship v2.0
+2025-06-08 02:02:29,412 - Battleship - INFO - Screen: 1200x650 @ 60 FPS
+2025-06-08 02:02:29,412 - UIManager - INFO - Message added: Welcome to Battleship!
+2025-06-08 02:02:31,301 - GameState - INFO - Game mode set to: singleplayer
+2025-06-08 02:02:31,302 - UIManager - INFO - Message added: Game mode: singleplayer
+2025-06-08 02:02:34,102 - UIManager - INFO - Message added: AI difficulty: expert
+2025-06-08 02:02:36,402 - UIManager - INFO - Starting game in singleplayer mode
+2025-06-08 02:02:36,451 - AIIntegration - INFO - AI difficulty recommendation: medium
+2025-06-08 02:02:36,452 - AIIntegration - INFO - AI Player initialized: Medium (ImprovedHuntTargetAI)
+2025-06-08 02:02:36,452 - GameState - INFO - Game phase changed from menu to ship_placement
+2025-06-08 02:02:36,452 - UIManager - INFO - Message added: Place your ships
+2025-06-08 02:02:57,460 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:02:59,423 - GameState - INFO - Settings saved successfully
+2025-06-08 02:03:03,799 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:03:10,614 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:03:11,977 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:03:13,531 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:03:26,952 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:03:29,430 - GameState - INFO - Settings saved successfully
+2025-06-08 02:03:35,581 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:03:36,246 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:03:36,512 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:03:36,679 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:03:36,864 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:03:37,030 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:03:37,214 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:03:37,411 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:03:42,266 - Battleship - INFO - Shutting down...
+2025-06-08 02:03:42,267 - GameState - INFO - Settings saved successfully
+2025-06-08 02:03:42,267 - Battleship - INFO - Settings saved
+2025-06-08 02:03:42,353 - Battleship - INFO - Battleship closed successfully
+2025-06-08 02:12:32,637 - Battleship - INFO - Initializing Battleship v2.0
+2025-06-08 02:12:33,293 - Battleship - INFO - Initializing game components...
+2025-06-08 02:12:33,305 - UIManager - INFO - UIManager initialized
+2025-06-08 02:12:33,307 - ShipManager - INFO - ShipManager initialized
+2025-06-08 02:12:33,471 - BattleManager - INFO - BattleManager initialized
+2025-06-08 02:12:33,501 - Renderer - INFO - Images loaded successfully
+2025-06-08 02:12:33,503 - Renderer - INFO - Renderer initialized
+2025-06-08 02:12:33,503 - GameIntegration - INFO - GameIntegration initialized
+2025-06-08 02:12:33,504 - Battleship - INFO - Components initialized
+2025-06-08 02:12:33,519 - GameState - INFO - Settings loaded successfully
+2025-06-08 02:12:33,734 - Battleship - INFO - Background music initialized
+2025-06-08 02:12:33,735 - Battleship - INFO - Game initialized successfully
+2025-06-08 02:12:33,735 - Battleship - INFO - Starting Battleship v2.0
+2025-06-08 02:12:33,735 - Battleship - INFO - Screen: 1200x650 @ 60 FPS
+2025-06-08 02:12:33,736 - UIManager - INFO - Message added: Welcome to Battleship!
+2025-06-08 02:12:35,537 - GameState - INFO - Game mode set to: singleplayer
+2025-06-08 02:12:35,538 - UIManager - INFO - Message added: Game mode: singleplayer
+2025-06-08 02:12:38,145 - UIManager - INFO - Message added: AI difficulty: expert
+2025-06-08 02:12:39,328 - UIManager - INFO - Starting game in singleplayer mode
+2025-06-08 02:12:39,333 - AIIntegration - INFO - AI difficulty recommendation: medium
+2025-06-08 02:12:39,334 - AIIntegration - INFO - AI Player initialized: Medium (ImprovedHuntTargetAI)
+2025-06-08 02:12:39,334 - GameState - INFO - Game phase changed from menu to ship_placement
+2025-06-08 02:12:39,334 - UIManager - INFO - Message added: Place your ships
+2025-06-08 02:12:54,577 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:12:54,578 - Battleship - CRITICAL - Unhandled exception: ShipManager.place_all_ships() missing 1 required positional argument: 'self'
+Traceback (most recent call last):
+  File "E:\BattleShip\game4_battleship\main.py", line 480, in main
+    game.run()
+    ~~~~~~~~^^
+  File "E:\BattleShip\game4_battleship\main.py", line 442, in run
+    self.update()
+    ~~~~~~~~~~~^^
+  File "E:\BattleShip\game4_battleship\main.py", line 276, in update
+    self.ui_manager.update(mouse_pos, mouse_clicked)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\BattleShip\game4_battleship\ui_manager.py", line 347, in update
+    button.update(mouse_pos, mouse_clicked)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "E:\BattleShip\game4_battleship\ui_manager.py", line 48, in update
+    self.callback()
+    ~~~~~~~~~~~~~^^
+  File "E:\BattleShip\game4_battleship\ui_manager.py", line 543, in on_ships_done
+    if ShipManager.place_all_ships():
+       ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+TypeError: ShipManager.place_all_ships() missing 1 required positional argument: 'self'
+2025-06-08 02:18:03,688 - Battleship - INFO - Initializing Battleship v2.0
+2025-06-08 02:18:04,345 - Battleship - INFO - Initializing game components...
+2025-06-08 02:18:04,348 - ShipManager - INFO - ShipManager initialized
+2025-06-08 02:18:04,358 - UIManager - INFO - UIManager initialized
+2025-06-08 02:18:04,491 - BattleManager - INFO - BattleManager initialized
+2025-06-08 02:18:04,524 - Renderer - INFO - Images loaded successfully
+2025-06-08 02:18:04,525 - Renderer - INFO - Renderer initialized
+2025-06-08 02:18:04,525 - GameIntegration - INFO - GameIntegration initialized
+2025-06-08 02:18:04,526 - Battleship - INFO - Components initialized
+2025-06-08 02:18:04,526 - GameState - INFO - Settings loaded successfully
+2025-06-08 02:18:04,769 - Battleship - INFO - Background music initialized
+2025-06-08 02:18:04,770 - Battleship - INFO - Game initialized successfully
+2025-06-08 02:18:04,770 - Battleship - INFO - Starting Battleship v2.0
+2025-06-08 02:18:04,770 - Battleship - INFO - Screen: 1200x650 @ 60 FPS
+2025-06-08 02:18:04,770 - UIManager - INFO - Message added: Welcome to Battleship!
+2025-06-08 02:18:07,080 - GameState - INFO - Game mode set to: singleplayer
+2025-06-08 02:18:07,080 - UIManager - INFO - Message added: Game mode: singleplayer
+2025-06-08 02:18:09,471 - UIManager - INFO - Message added: AI difficulty: hard
+2025-06-08 02:18:10,446 - UIManager - INFO - Starting game in singleplayer mode
+2025-06-08 02:18:10,450 - AIIntegration - INFO - AI difficulty recommendation: medium
+2025-06-08 02:18:10,451 - AIIntegration - INFO - AI Player initialized: Medium (ImprovedHuntTargetAI)
+2025-06-08 02:18:10,451 - GameState - INFO - Game phase changed from menu to ship_placement
+2025-06-08 02:18:10,451 - UIManager - INFO - Message added: Place your ships
+2025-06-08 02:18:25,934 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:18:25,935 - ShipManager - INFO - Placed ship 0 at positions [(0, 0), (1, 0), (2, 0), (3, 0), (4, 0)]
+2025-06-08 02:18:25,935 - ShipManager - INFO - Placed ship 1 at positions [(4, 6), (5, 6), (6, 6), (7, 6)]
+2025-06-08 02:18:25,936 - ShipManager - INFO - Placed ship 2 at positions [(3, 2), (4, 2), (5, 2)]
+2025-06-08 02:18:25,936 - ShipManager - WARNING - Ship 3 has invalid placement at (1, 5)
+2025-06-08 02:18:25,937 - ShipManager - INFO - Placed ship 4 at positions [(8, 4), (9, 4)]
+2025-06-08 02:18:25,937 - ShipManager - WARNING - Ship placement failed
+2025-06-08 02:18:25,937 - UIManager - WARNING - Invalid ship placement
+2025-06-08 02:18:25,938 - UIManager - INFO - Message added: Please place all ships correctly.
+2025-06-08 02:18:34,777 - GameState - INFO - Settings saved successfully
+2025-06-08 02:18:46,641 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:18:46,642 - ShipManager - INFO - Placed ship 0 at positions [(0, 0), (1, 0), (2, 0), (3, 0), (4, 0)]
+2025-06-08 02:18:46,643 - ShipManager - INFO - Placed ship 1 at positions [(5, 7), (6, 7), (7, 7), (8, 7)]
+2025-06-08 02:18:46,643 - ShipManager - INFO - Placed ship 2 at positions [(2, 3), (3, 3), (4, 3)]
+2025-06-08 02:18:46,643 - ShipManager - INFO - Placed ship 3 at positions [(1, 5), (2, 5), (3, 5)]
+2025-06-08 02:18:46,644 - ShipManager - INFO - Placed ship 4 at positions [(7, 1), (8, 1)]
+2025-06-08 02:18:46,644 - ShipManager - INFO - All ships placed successfully
+2025-06-08 02:18:46,644 - UIManager - INFO - All ships placed. Transitioning to battle phase.
+2025-06-08 02:18:46,645 - GameState - INFO - Game phase changed from ship_placement to battle
+2025-06-08 02:18:46,645 - UIManager - INFO - Message added: Battle started!
+2025-06-08 02:18:47,661 - BattleManager - INFO - AI shooting at (0, 0)
+2025-06-08 02:18:47,661 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:18:47,662 - GameState - INFO - Turn set to: Player
+2025-06-08 02:18:50,190 - BattleManager - INFO - Player targeting position (1, 3)
+2025-06-08 02:18:50,190 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:18:50,190 - GameState - INFO - Game phase changed from battle to game_over
+2025-06-08 02:18:50,192 - GameState - INFO - Settings saved successfully
+2025-06-08 02:18:50,192 - UIManager - INFO - Message added: Victory! You destroyed all enemy ships!
+2025-06-08 02:18:50,192 - BattleManager - INFO - Game over - Player won
+2025-06-08 02:18:53,213 - UIManager - INFO - Message added: Click to return to menu
+2025-06-08 02:18:57,788 - Battleship - INFO - Returning to main menu
+2025-06-08 02:18:57,788 - GameState - INFO - Game state reset
+2025-06-08 02:18:57,790 - ShipManager - INFO - ShipManager initialized
+2025-06-08 02:18:57,917 - BattleManager - INFO - BattleManager initialized
+2025-06-08 02:18:57,918 - UIManager - INFO - Message added: Welcome back!
+2025-06-08 02:19:04,783 - GameState - INFO - Settings saved successfully
+2025-06-08 02:19:09,917 - Battleship - INFO - Shutting down...
+2025-06-08 02:19:09,918 - GameState - INFO - Settings saved successfully
+2025-06-08 02:19:09,918 - Battleship - INFO - Settings saved
+2025-06-08 02:19:10,016 - Battleship - INFO - Battleship closed successfully
+2025-06-08 02:24:31,402 - Battleship - INFO - Initializing Battleship v2.0
+2025-06-08 02:24:32,050 - Battleship - INFO - Initializing game components...
+2025-06-08 02:24:32,052 - ShipManager - INFO - ShipManager initialized
+2025-06-08 02:24:32,066 - UIManager - INFO - UIManager initialized
+2025-06-08 02:24:32,202 - BattleManager - INFO - BattleManager initialized
+2025-06-08 02:24:32,237 - Renderer - INFO - Images loaded successfully
+2025-06-08 02:24:32,238 - Renderer - INFO - Renderer initialized
+2025-06-08 02:24:32,239 - GameIntegration - INFO - GameIntegration initialized
+2025-06-08 02:24:32,239 - Battleship - INFO - Components initialized
+2025-06-08 02:24:32,252 - GameState - INFO - Settings loaded successfully
+2025-06-08 02:24:32,493 - Battleship - INFO - Background music initialized
+2025-06-08 02:24:32,493 - Battleship - INFO - Game initialized successfully
+2025-06-08 02:24:32,494 - Battleship - INFO - Starting Battleship v2.0
+2025-06-08 02:24:32,494 - Battleship - INFO - Screen: 1200x650 @ 60 FPS
+2025-06-08 02:24:32,494 - UIManager - INFO - Message added: Welcome to Battleship!
+2025-06-08 02:24:34,911 - GameState - INFO - Game mode set to: singleplayer
+2025-06-08 02:24:34,912 - UIManager - INFO - Message added: Game mode: singleplayer
+2025-06-08 02:24:36,414 - UIManager - INFO - Message added: AI difficulty: hard
+2025-06-08 02:24:37,448 - UIManager - INFO - Starting game in singleplayer mode
+2025-06-08 02:24:37,452 - AIIntegration - INFO - AI difficulty recommendation: medium
+2025-06-08 02:24:37,453 - AIIntegration - INFO - AI Player initialized: Medium (ImprovedHuntTargetAI)
+2025-06-08 02:24:37,453 - GameState - INFO - Game phase changed from menu to ship_placement
+2025-06-08 02:24:37,453 - UIManager - INFO - Message added: Place your ships
+2025-06-08 02:24:57,171 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:24:57,172 - ShipManager - INFO - Placed ship 0 at positions [(2, 0), (3, 0), (4, 0), (5, 0), (6, 0)]
+2025-06-08 02:24:57,172 - ShipManager - INFO - Placed ship 1 at positions [(5, 8), (6, 8), (7, 8), (8, 8)]
+2025-06-08 02:24:57,172 - ShipManager - INFO - Placed ship 2 at positions [(2, 2), (3, 2), (4, 2)]
+2025-06-08 02:24:57,173 - ShipManager - INFO - Placed ship 3 at positions [(5, 5), (6, 5), (7, 5)]
+2025-06-08 02:24:57,173 - ShipManager - INFO - Placed ship 4 at positions [(2, 4), (3, 4)]
+2025-06-08 02:24:57,173 - ShipManager - INFO - All ships placed successfully
+2025-06-08 02:24:57,174 - UIManager - INFO - All ships placed. Transitioning to battle phase.
+2025-06-08 02:24:57,174 - GameState - INFO - Game phase changed from ship_placement to battle
+2025-06-08 02:24:57,175 - UIManager - INFO - Message added: Battle started!
+2025-06-08 02:24:59,184 - BattleManager - INFO - AI shooting at (0, 0)
+2025-06-08 02:24:59,184 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:24:59,184 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:00,481 - BattleManager - INFO - Player targeting position (1, 5)
+2025-06-08 02:25:00,482 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:00,482 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:01,491 - BattleManager - INFO - AI shooting at (4, 4)
+2025-06-08 02:25:01,491 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:01,492 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:02,509 - GameState - INFO - Settings saved successfully
+2025-06-08 02:25:03,084 - BattleManager - INFO - Player targeting position (3, 3)
+2025-06-08 02:25:03,085 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:03,085 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:04,089 - BattleManager - INFO - AI shooting at (5, 5)
+2025-06-08 02:25:04,090 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:25:04,090 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:05,326 - BattleManager - INFO - Player targeting position (3, 6)
+2025-06-08 02:25:05,327 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:05,327 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:06,341 - BattleManager - INFO - AI shooting at (5, 6)
+2025-06-08 02:25:06,341 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:06,342 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:07,750 - BattleManager - INFO - Player targeting position (5, 6)
+2025-06-08 02:25:07,750 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:07,750 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:08,759 - BattleManager - INFO - AI shooting at (6, 5)
+2025-06-08 02:25:08,759 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:25:08,760 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:10,147 - BattleManager - INFO - Player targeting position (6, 4)
+2025-06-08 02:25:10,148 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:10,148 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:11,157 - BattleManager - INFO - AI shooting at (4, 5)
+2025-06-08 02:25:11,157 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:11,157 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:12,328 - BattleManager - INFO - Player targeting position (6, 3)
+2025-06-08 02:25:12,329 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:12,329 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:13,340 - BattleManager - INFO - AI shooting at (7, 5)
+2025-06-08 02:25:13,340 - ShipManager - INFO - Ship of size 3 has been sunk!
+2025-06-08 02:25:13,341 - ShipManager - INFO - Ship sunk! Size: 3
+2025-06-08 02:25:13,341 - UIManager - INFO - Message added: Your ship was sunk! (size 3)
+2025-06-08 02:25:13,341 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:15,036 - BattleManager - INFO - Player targeting position (5, 2)
+2025-06-08 02:25:15,037 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:15,037 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:16,047 - BattleManager - INFO - AI shooting at (3, 3)
+2025-06-08 02:25:16,047 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:16,048 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:17,023 - BattleManager - INFO - Player targeting position (4, 1)
+2025-06-08 02:25:17,023 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:17,024 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:18,032 - BattleManager - INFO - AI shooting at (5, 2)
+2025-06-08 02:25:18,032 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:18,032 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:19,176 - BattleManager - INFO - Player targeting position (2, 1)
+2025-06-08 02:25:19,176 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:19,177 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:20,191 - BattleManager - INFO - AI shooting at (6, 7)
+2025-06-08 02:25:20,192 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:20,192 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:21,237 - BattleManager - INFO - Player targeting position (1, 3)
+2025-06-08 02:25:21,238 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:21,238 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:22,242 - BattleManager - INFO - AI shooting at (7, 3)
+2025-06-08 02:25:22,243 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:22,243 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:23,161 - BattleManager - INFO - Player targeting position (0, 5)
+2025-06-08 02:25:23,161 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:23,162 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:25,168 - BattleManager - INFO - AI shooting at (2, 6)
+2025-06-08 02:25:25,168 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:25,169 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:26,200 - BattleManager - INFO - Player targeting position (0, 6)
+2025-06-08 02:25:26,200 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:26,200 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:27,206 - BattleManager - INFO - AI shooting at (3, 8)
+2025-06-08 02:25:27,207 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:27,207 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:27,890 - BattleManager - INFO - Player targeting position (0, 7)
+2025-06-08 02:25:27,891 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:27,891 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:28,896 - BattleManager - INFO - AI shooting at (6, 1)
+2025-06-08 02:25:28,897 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:28,897 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:29,393 - BattleManager - INFO - Player targeting position (0, 8)
+2025-06-08 02:25:29,394 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:29,394 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:30,398 - BattleManager - INFO - AI shooting at (8, 4)
+2025-06-08 02:25:30,398 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:30,399 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:30,879 - BattleManager - INFO - Player targeting position (0, 9)
+2025-06-08 02:25:30,879 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:30,879 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:31,890 - BattleManager - INFO - AI shooting at (1, 4)
+2025-06-08 02:25:31,891 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:31,891 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:32,356 - BattleManager - INFO - Player targeting position (1, 9)
+2025-06-08 02:25:32,357 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:32,357 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:32,523 - GameState - INFO - Settings saved successfully
+2025-06-08 02:25:33,359 - BattleManager - INFO - AI shooting at (2, 1)
+2025-06-08 02:25:33,360 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:33,360 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:33,792 - BattleManager - INFO - Player targeting position (1, 8)
+2025-06-08 02:25:33,792 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:33,792 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:34,797 - BattleManager - INFO - AI shooting at (7, 8)
+2025-06-08 02:25:34,798 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:25:34,798 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:35,299 - BattleManager - INFO - Player targeting position (1, 7)
+2025-06-08 02:25:35,300 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:35,300 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:37,306 - BattleManager - INFO - AI shooting at (8, 8)
+2025-06-08 02:25:37,307 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:25:37,307 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:38,088 - BattleManager - INFO - Player targeting position (1, 6)
+2025-06-08 02:25:38,089 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:38,089 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:39,104 - BattleManager - INFO - AI shooting at (6, 8)
+2025-06-08 02:25:39,105 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:25:39,105 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:39,949 - BattleManager - INFO - Player targeting position (0, 4)
+2025-06-08 02:25:39,950 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:39,950 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:40,956 - BattleManager - INFO - AI shooting at (5, 8)
+2025-06-08 02:25:40,956 - ShipManager - INFO - Ship of size 4 has been sunk!
+2025-06-08 02:25:40,957 - ShipManager - INFO - Ship sunk! Size: 4
+2025-06-08 02:25:40,957 - UIManager - INFO - Message added: Your ship was sunk! (size 4)
+2025-06-08 02:25:40,957 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:41,652 - BattleManager - INFO - Player targeting position (0, 3)
+2025-06-08 02:25:41,653 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:41,654 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:42,661 - BattleManager - INFO - AI shooting at (9, 5)
+2025-06-08 02:25:42,661 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:42,662 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:43,323 - BattleManager - INFO - Player targeting position (0, 2)
+2025-06-08 02:25:43,323 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:43,323 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:44,330 - BattleManager - INFO - AI shooting at (0, 5)
+2025-06-08 02:25:44,330 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:44,330 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:45,076 - BattleManager - INFO - Player targeting position (0, 1)
+2025-06-08 02:25:45,077 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:45,077 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:46,087 - BattleManager - INFO - AI shooting at (1, 7)
+2025-06-08 02:25:46,088 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:46,088 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:46,764 - BattleManager - INFO - Player targeting position (0, 0)
+2025-06-08 02:25:46,765 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:46,765 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:47,776 - BattleManager - INFO - AI shooting at (4, 9)
+2025-06-08 02:25:47,776 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:47,776 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:48,259 - BattleManager - INFO - Player targeting position (1, 0)
+2025-06-08 02:25:48,260 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:48,260 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:49,272 - BattleManager - INFO - AI shooting at (4, 0)
+2025-06-08 02:25:49,273 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:25:49,273 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:49,805 - BattleManager - INFO - Player targeting position (1, 1)
+2025-06-08 02:25:49,805 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:49,805 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:50,821 - BattleManager - INFO - AI shooting at (5, 0)
+2025-06-08 02:25:50,821 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:25:50,822 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:51,305 - BattleManager - INFO - Player targeting position (1, 2)
+2025-06-08 02:25:51,306 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:51,306 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:52,314 - BattleManager - INFO - AI shooting at (3, 0)
+2025-06-08 02:25:52,314 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:25:52,315 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:52,958 - BattleManager - INFO - Player targeting position (1, 4)
+2025-06-08 02:25:52,958 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:52,959 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:53,964 - BattleManager - INFO - AI shooting at (2, 0)
+2025-06-08 02:25:53,965 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:25:53,965 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:54,410 - BattleManager - INFO - Player targeting position (2, 0)
+2025-06-08 02:25:54,410 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:54,411 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:55,421 - BattleManager - INFO - AI shooting at (1, 0)
+2025-06-08 02:25:55,421 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:55,421 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:56,033 - BattleManager - INFO - Player targeting position (3, 0)
+2025-06-08 02:25:56,034 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:56,034 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:57,045 - BattleManager - INFO - AI shooting at (6, 0)
+2025-06-08 02:25:57,045 - ShipManager - INFO - Ship of size 5 has been sunk!
+2025-06-08 02:25:57,046 - ShipManager - INFO - Ship sunk! Size: 5
+2025-06-08 02:25:57,046 - UIManager - INFO - Message added: Your ship was sunk! (size 5)
+2025-06-08 02:25:57,047 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:57,859 - BattleManager - INFO - Player targeting position (4, 0)
+2025-06-08 02:25:57,860 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:57,860 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:25:58,871 - BattleManager - INFO - AI shooting at (7, 6)
+2025-06-08 02:25:58,872 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:25:58,872 - GameState - INFO - Turn set to: Player
+2025-06-08 02:25:59,505 - BattleManager - INFO - Player targeting position (5, 0)
+2025-06-08 02:25:59,505 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:25:59,506 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:00,514 - BattleManager - INFO - AI shooting at (6, 4)
+2025-06-08 02:26:00,515 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:00,515 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:01,246 - BattleManager - INFO - Player targeting position (6, 0)
+2025-06-08 02:26:01,247 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:01,247 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:02,251 - BattleManager - INFO - AI shooting at (8, 2)
+2025-06-08 02:26:02,252 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:02,252 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:02,531 - GameState - INFO - Settings saved successfully
+2025-06-08 02:26:02,879 - BattleManager - INFO - Player targeting position (7, 2)
+2025-06-08 02:26:02,880 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:02,880 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:03,891 - BattleManager - INFO - AI shooting at (8, 7)
+2025-06-08 02:26:03,892 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:03,892 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:04,403 - BattleManager - INFO - Player targeting position (8, 5)
+2025-06-08 02:26:04,404 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:04,404 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:05,415 - BattleManager - INFO - AI shooting at (1, 2)
+2025-06-08 02:26:05,415 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:05,416 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:05,696 - BattleManager - INFO - Player targeting position (8, 7)
+2025-06-08 02:26:05,696 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:05,697 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:06,702 - BattleManager - INFO - AI shooting at (4, 1)
+2025-06-08 02:26:06,702 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:06,702 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:07,368 - BattleManager - INFO - Player targeting position (6, 8)
+2025-06-08 02:26:07,369 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:07,369 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:08,385 - BattleManager - INFO - AI shooting at (4, 7)
+2025-06-08 02:26:08,386 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:08,386 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:08,880 - BattleManager - INFO - Player targeting position (7, 8)
+2025-06-08 02:26:08,881 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:08,881 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:09,890 - BattleManager - INFO - AI shooting at (7, 0)
+2025-06-08 02:26:09,891 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:09,891 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:10,393 - BattleManager - INFO - Player targeting position (8, 9)
+2025-06-08 02:26:10,393 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:10,393 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:11,399 - BattleManager - INFO - AI shooting at (7, 9)
+2025-06-08 02:26:11,400 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:11,400 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:11,868 - BattleManager - INFO - Player targeting position (9, 8)
+2025-06-08 02:26:11,869 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:11,869 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:12,876 - BattleManager - INFO - AI shooting at (0, 3)
+2025-06-08 02:26:12,876 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:12,877 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:13,341 - BattleManager - INFO - Player targeting position (4, 9)
+2025-06-08 02:26:13,342 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:13,342 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:14,352 - BattleManager - INFO - AI shooting at (0, 8)
+2025-06-08 02:26:14,353 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:14,353 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:15,028 - BattleManager - INFO - Player targeting position (4, 8)
+2025-06-08 02:26:15,029 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:15,029 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:16,040 - BattleManager - INFO - AI shooting at (2, 9)
+2025-06-08 02:26:16,040 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:16,040 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:16,585 - BattleManager - INFO - Player targeting position (4, 4)
+2025-06-08 02:26:16,586 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:16,586 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:17,593 - BattleManager - INFO - AI shooting at (3, 5)
+2025-06-08 02:26:17,593 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:17,593 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:17,924 - BattleManager - INFO - Player targeting position (3, 5)
+2025-06-08 02:26:17,925 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:17,925 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:18,934 - BattleManager - INFO - AI shooting at (9, 1)
+2025-06-08 02:26:18,935 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:18,935 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:19,609 - BattleManager - INFO - Player targeting position (8, 3)
+2025-06-08 02:26:19,610 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:19,610 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:20,618 - BattleManager - INFO - AI shooting at (9, 8)
+2025-06-08 02:26:20,619 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:20,619 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:20,932 - BattleManager - INFO - Player targeting position (9, 1)
+2025-06-08 02:26:20,933 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:20,934 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:21,948 - BattleManager - INFO - AI shooting at (2, 3)
+2025-06-08 02:26:21,948 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:21,948 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:22,298 - BattleManager - INFO - Player targeting position (9, 3)
+2025-06-08 02:26:22,298 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:22,299 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:23,311 - BattleManager - INFO - AI shooting at (3, 2)
+2025-06-08 02:26:23,311 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:26:23,311 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:24,084 - BattleManager - INFO - Player targeting position (9, 5)
+2025-06-08 02:26:24,085 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:24,085 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:25,088 - BattleManager - INFO - AI shooting at (4, 2)
+2025-06-08 02:26:25,088 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:26:25,089 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:25,521 - BattleManager - INFO - Player targeting position (5, 7)
+2025-06-08 02:26:25,521 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:25,522 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:26,535 - BattleManager - INFO - AI shooting at (2, 2)
+2025-06-08 02:26:26,536 - ShipManager - INFO - Ship of size 3 has been sunk!
+2025-06-08 02:26:26,536 - ShipManager - INFO - Ship sunk! Size: 3
+2025-06-08 02:26:26,536 - UIManager - INFO - Message added: Your ship was sunk! (size 3)
+2025-06-08 02:26:26,537 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:27,092 - BattleManager - INFO - Player targeting position (3, 7)
+2025-06-08 02:26:27,093 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:27,093 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:28,102 - BattleManager - INFO - AI shooting at (5, 3)
+2025-06-08 02:26:28,102 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:28,102 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:29,036 - BattleManager - INFO - Player targeting position (2, 8)
+2025-06-08 02:26:29,036 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:29,036 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:30,051 - BattleManager - INFO - AI shooting at (9, 3)
+2025-06-08 02:26:30,051 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:30,052 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:30,431 - BattleManager - INFO - Player targeting position (2, 9)
+2025-06-08 02:26:30,432 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:30,433 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:31,444 - BattleManager - INFO - AI shooting at (0, 1)
+2025-06-08 02:26:31,444 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:31,444 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:31,857 - BattleManager - INFO - Player targeting position (6, 5)
+2025-06-08 02:26:31,857 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:31,858 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:32,534 - GameState - INFO - Settings saved successfully
+2025-06-08 02:26:32,861 - BattleManager - INFO - AI shooting at (0, 6)
+2025-06-08 02:26:32,861 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:32,862 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:33,272 - BattleManager - INFO - Player targeting position (7, 6)
+2025-06-08 02:26:33,273 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:33,273 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:34,281 - BattleManager - INFO - AI shooting at (1, 5)
+2025-06-08 02:26:34,282 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:34,282 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:34,413 - BattleManager - INFO - Player targeting position (7, 4)
+2025-06-08 02:26:34,414 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:34,414 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:35,424 - BattleManager - INFO - AI shooting at (1, 8)
+2025-06-08 02:26:35,425 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:35,425 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:35,738 - BattleManager - INFO - Player targeting position (5, 5)
+2025-06-08 02:26:35,739 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:35,739 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:36,746 - BattleManager - INFO - AI shooting at (2, 4)
+2025-06-08 02:26:36,746 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:26:36,746 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:37,238 - BattleManager - INFO - Player targeting position (3, 2)
+2025-06-08 02:26:37,238 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:37,239 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:38,243 - BattleManager - INFO - AI shooting at (2, 5)
+2025-06-08 02:26:38,243 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:26:38,244 - GameState - INFO - Turn set to: Player
+2025-06-08 02:26:38,412 - BattleManager - INFO - Player targeting position (2, 5)
+2025-06-08 02:26:38,412 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:26:38,413 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:26:39,416 - BattleManager - INFO - AI shooting at (3, 4)
+2025-06-08 02:26:39,417 - ShipManager - INFO - Ship of size 2 has been sunk!
+2025-06-08 02:26:39,417 - ShipManager - INFO - Ship sunk! Size: 2
+2025-06-08 02:26:39,418 - UIManager - INFO - Message added: Your ship was sunk! (size 2)
+2025-06-08 02:26:39,418 - GameState - INFO - Game phase changed from battle to game_over
+2025-06-08 02:26:39,418 - GameState - INFO - Settings saved successfully
+2025-06-08 02:26:39,419 - UIManager - INFO - Message added: Defeat! All your ships were destroyed!
+2025-06-08 02:26:39,419 - BattleManager - INFO - Game over - Player lost
+2025-06-08 02:26:42,430 - UIManager - INFO - Message added: Click to return to menu
+2025-06-08 02:26:45,833 - Battleship - INFO - Returning to main menu
+2025-06-08 02:26:45,833 - GameState - INFO - Game state reset
+2025-06-08 02:26:45,835 - ShipManager - INFO - ShipManager initialized
+2025-06-08 02:26:45,964 - BattleManager - INFO - BattleManager initialized
+2025-06-08 02:26:45,964 - UIManager - INFO - Message added: Welcome back!
+2025-06-08 02:26:48,224 - Battleship - INFO - Shutting down...
+2025-06-08 02:26:48,225 - GameState - INFO - Settings saved successfully
+2025-06-08 02:26:48,225 - Battleship - INFO - Settings saved
+2025-06-08 02:26:48,322 - Battleship - INFO - Battleship closed successfully
+2025-06-08 02:31:02,950 - Battleship - INFO - Initializing Battleship v2.0
+2025-06-08 02:31:03,551 - Battleship - INFO - Initializing game components...
+2025-06-08 02:31:03,553 - ShipManager - INFO - ShipManager initialized
+2025-06-08 02:31:03,570 - UIManager - INFO - UIManager initialized
+2025-06-08 02:31:03,705 - BattleManager - INFO - BattleManager initialized
+2025-06-08 02:31:03,732 - Renderer - INFO - Images loaded successfully
+2025-06-08 02:31:03,733 - Renderer - INFO - Renderer initialized
+2025-06-08 02:31:03,734 - GameIntegration - INFO - GameIntegration initialized
+2025-06-08 02:31:03,734 - Battleship - INFO - Components initialized
+2025-06-08 02:31:03,745 - GameState - INFO - Settings loaded successfully
+2025-06-08 02:31:03,963 - Battleship - INFO - Background music initialized
+2025-06-08 02:31:03,963 - Battleship - INFO - Game initialized successfully
+2025-06-08 02:31:03,963 - Battleship - INFO - Starting Battleship v2.0
+2025-06-08 02:31:03,963 - Battleship - INFO - Screen: 1200x650 @ 60 FPS
+2025-06-08 02:31:03,964 - UIManager - INFO - Message added: Welcome to Battleship!
+2025-06-08 02:31:05,836 - GameState - INFO - Game mode set to: singleplayer
+2025-06-08 02:31:05,836 - UIManager - INFO - Message added: Game mode: singleplayer
+2025-06-08 02:31:07,538 - UIManager - INFO - Message added: AI difficulty: hard
+2025-06-08 02:31:08,550 - UIManager - INFO - Starting game in singleplayer mode
+2025-06-08 02:31:08,554 - AIIntegration - INFO - AI difficulty recommendation: medium
+2025-06-08 02:31:08,555 - AIIntegration - INFO - AI Player initialized: Medium (ImprovedHuntTargetAI)
+2025-06-08 02:31:08,555 - GameState - INFO - Game phase changed from menu to ship_placement
+2025-06-08 02:31:08,555 - UIManager - INFO - Message added: Place your ships
+2025-06-08 02:31:29,029 - UIManager - INFO - Ships placement done requested
+2025-06-08 02:31:29,029 - ShipManager - INFO - Placed ship 0 at positions [(1, 2), (2, 2), (3, 2), (4, 2), (5, 2)]
+2025-06-08 02:31:29,029 - ShipManager - INFO - Placed ship 1 at positions [(1, 8), (2, 8), (3, 8), (4, 8)]
+2025-06-08 02:31:29,030 - ShipManager - INFO - Placed ship 2 at positions [(5, 0), (6, 0), (7, 0)]
+2025-06-08 02:31:29,030 - ShipManager - INFO - Placed ship 3 at positions [(4, 5), (5, 5), (6, 5)]
+2025-06-08 02:31:29,030 - ShipManager - INFO - Placed ship 4 at positions [(7, 8), (8, 8)]
+2025-06-08 02:31:29,031 - ShipManager - INFO - All ships placed successfully
+2025-06-08 02:31:29,031 - UIManager - INFO - All ships placed. Transitioning to battle phase.
+2025-06-08 02:31:29,031 - ShipManager - INFO - Placed enemy ship of size 5 at [(3, 0), (4, 0), (5, 0), (6, 0), (7, 0)]
+2025-06-08 02:31:29,031 - ShipManager - INFO - Placed enemy ship of size 4 at [(4, 6), (4, 7), (4, 8), (4, 9)]
+2025-06-08 02:31:29,032 - ShipManager - INFO - Placed enemy ship of size 3 at [(6, 6), (6, 7), (6, 8)]
+2025-06-08 02:31:29,032 - ShipManager - INFO - Placed enemy ship of size 3 at [(0, 6), (1, 6), (2, 6)]
+2025-06-08 02:31:29,033 - ShipManager - INFO - Placed enemy ship of size 2 at [(8, 7), (9, 7)]
+2025-06-08 02:31:29,033 - GameState - INFO - Game phase changed from ship_placement to battle
+2025-06-08 02:31:29,033 - UIManager - INFO - Message added: Battle started!
+2025-06-08 02:31:30,044 - BattleManager - INFO - AI shooting at (0, 0)
+2025-06-08 02:31:30,044 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:31:30,044 - GameState - INFO - Turn set to: Player
+2025-06-08 02:31:31,516 - BattleManager - INFO - Player targeting position (4, 5)
+2025-06-08 02:31:31,516 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:31:31,517 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:31:32,533 - BattleManager - INFO - AI shooting at (4, 4)
+2025-06-08 02:31:32,534 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:31:32,534 - GameState - INFO - Turn set to: Player
+2025-06-08 02:31:33,977 - GameState - INFO - Settings saved successfully
+2025-06-08 02:31:34,010 - BattleManager - INFO - Player targeting position (3, 4)
+2025-06-08 02:31:34,011 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:31:34,011 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:31:35,021 - BattleManager - INFO - AI shooting at (5, 5)
+2025-06-08 02:31:35,022 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:31:35,022 - GameState - INFO - Turn set to: Player
+2025-06-08 02:31:36,673 - BattleManager - INFO - Player targeting position (5, 3)
+2025-06-08 02:31:36,673 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:31:36,674 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:31:37,678 - BattleManager - INFO - AI shooting at (5, 6)
+2025-06-08 02:31:37,679 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:31:37,679 - GameState - INFO - Turn set to: Player
+2025-06-08 02:31:38,923 - BattleManager - INFO - Player targeting position (6, 2)
+2025-06-08 02:31:38,923 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:31:38,923 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:31:39,928 - BattleManager - INFO - AI shooting at (6, 5)
+2025-06-08 02:31:39,929 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:31:39,929 - GameState - INFO - Turn set to: Player
+2025-06-08 02:31:41,401 - BattleManager - INFO - Player targeting position (3, 2)
+2025-06-08 02:31:41,402 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:31:41,402 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:31:42,411 - BattleManager - INFO - AI shooting at (4, 5)
+2025-06-08 02:31:42,412 - ShipManager - INFO - Ship of size 3 has been sunk!
+2025-06-08 02:31:42,412 - ShipManager - INFO - Ship sunk! Size: 3
+2025-06-08 02:31:42,413 - UIManager - INFO - Message added: Your ship was sunk! (size 3)
+2025-06-08 02:31:42,413 - GameState - INFO - Turn set to: Player
+2025-06-08 02:31:43,886 - BattleManager - INFO - Player targeting position (1, 6)
+2025-06-08 02:31:43,887 - UIManager - INFO - Message added: Hit!
+2025-06-08 02:31:43,888 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:31:44,896 - BattleManager - INFO - AI shooting at (3, 5)
+2025-06-08 02:31:44,897 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:31:44,897 - GameState - INFO - Turn set to: Player
+2025-06-08 02:31:46,395 - BattleManager - INFO - Player targeting position (2, 6)
+2025-06-08 02:31:46,395 - UIManager - INFO - Message added: Hit!
+2025-06-08 02:31:46,396 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:31:47,402 - BattleManager - INFO - AI shooting at (6, 3)
+2025-06-08 02:31:47,403 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:31:47,404 - GameState - INFO - Turn set to: Player
+2025-06-08 02:31:48,957 - BattleManager - INFO - Player targeting position (3, 6)
+2025-06-08 02:31:48,957 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:31:48,958 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:31:49,972 - BattleManager - INFO - AI shooting at (5, 2)
+2025-06-08 02:31:49,973 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:31:49,973 - GameState - INFO - Turn set to: Player
+2025-06-08 02:31:51,207 - BattleManager - INFO - Player targeting position (0, 6)
+2025-06-08 02:31:51,208 - ShipManager - INFO - Ship of size 3 has been sunk!
+2025-06-08 02:31:51,208 - ShipManager - INFO - Ship sunk! Size: 3
+2025-06-08 02:31:51,208 - UIManager - INFO - Message added: Enemy ship sunk! (size 3)
+2025-06-08 02:31:51,208 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:31:52,216 - BattleManager - INFO - AI shooting at (5, 1)
+2025-06-08 02:31:52,217 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:31:52,217 - GameState - INFO - Turn set to: Player
+2025-06-08 02:31:54,009 - BattleManager - INFO - Player targeting position (0, 8)
+2025-06-08 02:31:54,009 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:31:54,009 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:31:55,017 - BattleManager - INFO - AI shooting at (4, 2)
+2025-06-08 02:31:55,017 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:31:55,018 - GameState - INFO - Turn set to: Player
+2025-06-08 02:31:56,197 - BattleManager - INFO - Player targeting position (1, 3)
+2025-06-08 02:31:56,198 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:31:56,198 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:31:57,212 - BattleManager - INFO - AI shooting at (3, 2)
+2025-06-08 02:31:57,213 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:31:57,213 - GameState - INFO - Turn set to: Player
+2025-06-08 02:31:58,339 - BattleManager - INFO - Player targeting position (7, 7)
+2025-06-08 02:31:58,339 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:31:58,340 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:31:59,350 - BattleManager - INFO - AI shooting at (2, 2)
+2025-06-08 02:31:59,350 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:31:59,351 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:00,646 - BattleManager - INFO - Player targeting position (7, 8)
+2025-06-08 02:32:00,646 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:00,647 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:01,659 - BattleManager - INFO - AI shooting at (1, 2)
+2025-06-08 02:32:01,659 - ShipManager - INFO - Ship of size 5 has been sunk!
+2025-06-08 02:32:01,660 - ShipManager - INFO - Ship sunk! Size: 5
+2025-06-08 02:32:01,660 - UIManager - INFO - Message added: Your ship was sunk! (size 5)
+2025-06-08 02:32:01,660 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:02,738 - BattleManager - INFO - Player targeting position (5, 8)
+2025-06-08 02:32:02,739 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:02,739 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:03,751 - BattleManager - INFO - AI shooting at (2, 3)
+2025-06-08 02:32:03,752 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:32:03,753 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:03,983 - GameState - INFO - Settings saved successfully
+2025-06-08 02:32:04,783 - BattleManager - INFO - Player targeting position (8, 3)
+2025-06-08 02:32:04,783 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:04,784 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:05,787 - BattleManager - INFO - AI shooting at (6, 7)
+2025-06-08 02:32:05,788 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:32:05,788 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:06,918 - BattleManager - INFO - Player targeting position (2, 1)
+2025-06-08 02:32:06,919 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:06,920 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:07,924 - BattleManager - INFO - AI shooting at (7, 5)
+2025-06-08 02:32:07,924 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:32:07,925 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:08,850 - BattleManager - INFO - Player targeting position (5, 0)
+2025-06-08 02:32:08,850 - UIManager - INFO - Message added: Hit!
+2025-06-08 02:32:08,851 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:09,860 - BattleManager - INFO - AI shooting at (2, 7)
+2025-06-08 02:32:09,861 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:32:09,862 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:11,089 - BattleManager - INFO - Player targeting position (6, 0)
+2025-06-08 02:32:11,090 - UIManager - INFO - Message added: Hit!
+2025-06-08 02:32:11,090 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:12,100 - BattleManager - INFO - AI shooting at (1, 6)
+2025-06-08 02:32:12,101 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:32:12,101 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:13,160 - BattleManager - INFO - Player targeting position (7, 0)
+2025-06-08 02:32:13,160 - UIManager - INFO - Message added: Hit!
+2025-06-08 02:32:13,161 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:14,174 - BattleManager - INFO - AI shooting at (4, 8)
+2025-06-08 02:32:14,174 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:32:14,175 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:15,552 - BattleManager - INFO - Player targeting position (8, 0)
+2025-06-08 02:32:15,553 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:15,553 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:16,570 - BattleManager - INFO - AI shooting at (3, 8)
+2025-06-08 02:32:16,570 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:32:16,571 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:17,492 - BattleManager - INFO - Player targeting position (4, 0)
+2025-06-08 02:32:17,492 - UIManager - INFO - Message added: Hit!
+2025-06-08 02:32:17,492 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:18,498 - BattleManager - INFO - AI shooting at (2, 8)
+2025-06-08 02:32:18,498 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:32:18,499 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:19,703 - BattleManager - INFO - Player targeting position (3, 0)
+2025-06-08 02:32:19,703 - ShipManager - INFO - Ship of size 5 has been sunk!
+2025-06-08 02:32:19,704 - ShipManager - INFO - Ship sunk! Size: 5
+2025-06-08 02:32:19,704 - UIManager - INFO - Message added: Enemy ship sunk! (size 5)
+2025-06-08 02:32:19,704 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:20,718 - BattleManager - INFO - AI shooting at (1, 8)
+2025-06-08 02:32:20,718 - ShipManager - INFO - Ship of size 4 has been sunk!
+2025-06-08 02:32:20,719 - ShipManager - INFO - Ship sunk! Size: 4
+2025-06-08 02:32:20,719 - UIManager - INFO - Message added: Your ship was sunk! (size 4)
+2025-06-08 02:32:20,719 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:23,514 - BattleManager - INFO - Player targeting position (8, 5)
+2025-06-08 02:32:23,514 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:23,514 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:24,526 - BattleManager - INFO - AI shooting at (7, 2)
+2025-06-08 02:32:24,526 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:32:24,526 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:25,486 - BattleManager - INFO - Player targeting position (9, 6)
+2025-06-08 02:32:25,487 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:25,487 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:26,494 - BattleManager - INFO - AI shooting at (7, 8)
+2025-06-08 02:32:26,495 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:32:26,495 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:27,565 - BattleManager - INFO - Player targeting position (2, 9)
+2025-06-08 02:32:27,566 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:27,566 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:28,575 - BattleManager - INFO - AI shooting at (8, 8)
+2025-06-08 02:32:28,575 - ShipManager - INFO - Ship of size 2 has been sunk!
+2025-06-08 02:32:28,575 - ShipManager - INFO - Ship sunk! Size: 2
+2025-06-08 02:32:28,576 - UIManager - INFO - Message added: Your ship was sunk! (size 2)
+2025-06-08 02:32:28,576 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:29,746 - BattleManager - INFO - Player targeting position (0, 2)
+2025-06-08 02:32:29,747 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:29,747 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:30,755 - BattleManager - INFO - AI shooting at (8, 4)
+2025-06-08 02:32:30,756 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:32:30,756 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:31,995 - BattleManager - INFO - Player targeting position (0, 4)
+2025-06-08 02:32:31,995 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:31,995 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:33,010 - BattleManager - INFO - AI shooting at (0, 4)
+2025-06-08 02:32:33,011 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:32:33,011 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:33,987 - GameState - INFO - Settings saved successfully
+2025-06-08 02:32:34,464 - BattleManager - INFO - Player targeting position (6, 5)
+2025-06-08 02:32:34,464 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:34,465 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:35,470 - BattleManager - INFO - AI shooting at (1, 1)
+2025-06-08 02:32:35,470 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:32:35,470 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:36,939 - BattleManager - INFO - Player targeting position (7, 1)
+2025-06-08 02:32:36,939 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:36,940 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:37,952 - BattleManager - INFO - AI shooting at (3, 0)
+2025-06-08 02:32:37,952 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:32:37,953 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:40,795 - BattleManager - INFO - Player targeting position (7, 9)
+2025-06-08 02:32:40,796 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:40,796 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:41,802 - BattleManager - INFO - AI shooting at (3, 9)
+2025-06-08 02:32:41,803 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:32:41,803 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:44,944 - BattleManager - INFO - Player targeting position (9, 2)
+2025-06-08 02:32:44,945 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:44,945 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:45,957 - BattleManager - INFO - AI shooting at (4, 7)
+2025-06-08 02:32:45,958 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:32:45,958 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:47,034 - BattleManager - INFO - Player targeting position (9, 8)
+2025-06-08 02:32:47,034 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:47,035 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:48,042 - BattleManager - INFO - AI shooting at (5, 8)
+2025-06-08 02:32:48,042 - UIManager - INFO - Message added: Enemy missed!
+2025-06-08 02:32:48,042 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:49,407 - BattleManager - INFO - Player targeting position (2, 5)
+2025-06-08 02:32:49,407 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:49,408 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:50,423 - BattleManager - INFO - AI shooting at (6, 0)
+2025-06-08 02:32:50,423 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:32:50,424 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:51,596 - BattleManager - INFO - Player targeting position (4, 7)
+2025-06-08 02:32:51,597 - UIManager - INFO - Message added: Hit!
+2025-06-08 02:32:51,597 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:52,601 - BattleManager - INFO - AI shooting at (7, 0)
+2025-06-08 02:32:52,602 - UIManager - INFO - Message added: Your ship was hit!
+2025-06-08 02:32:52,602 - GameState - INFO - Turn set to: Player
+2025-06-08 02:32:53,317 - BattleManager - INFO - Player targeting position (3, 7)
+2025-06-08 02:32:53,318 - UIManager - INFO - Message added: Miss!
+2025-06-08 02:32:53,318 - GameState - INFO - Turn set to: Opponent
+2025-06-08 02:32:54,325 - BattleManager - INFO - AI shooting at (5, 0)
+2025-06-08 02:32:54,326 - ShipManager - INFO - Ship of size 3 has been sunk!
+2025-06-08 02:32:54,326 - ShipManager - INFO - Ship sunk! Size: 3
+2025-06-08 02:32:54,327 - UIManager - INFO - Message added: Your ship was sunk! (size 3)
+2025-06-08 02:32:54,327 - GameState - INFO - Game phase changed from battle to game_over
+2025-06-08 02:32:54,328 - GameState - INFO - Settings saved successfully
+2025-06-08 02:32:54,328 - UIManager - INFO - Message added: Defeat! All your ships were destroyed!
+2025-06-08 02:32:54,328 - BattleManager - INFO - Game over - Player lost
+2025-06-08 02:32:57,343 - UIManager - INFO - Message added: Click to return to menu
+2025-06-08 02:33:00,480 - Battleship - INFO - Returning to main menu
+2025-06-08 02:33:00,481 - GameState - INFO - Game state reset
+2025-06-08 02:33:00,482 - ShipManager - INFO - ShipManager initialized
+2025-06-08 02:33:00,611 - BattleManager - INFO - BattleManager initialized
+2025-06-08 02:33:00,612 - UIManager - INFO - Message added: Welcome back!
+2025-06-08 02:33:03,508 - Battleship - INFO - Shutting down...
+2025-06-08 02:33:03,508 - GameState - INFO - Settings saved successfully
+2025-06-08 02:33:03,509 - Battleship - INFO - Settings saved
+2025-06-08 02:33:03,599 - Battleship - INFO - Battleship closed successfully
