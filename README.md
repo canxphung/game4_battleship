@@ -30,8 +30,8 @@ Battleship là game chiến thuật hải quân, hỗ trợ:
 
 - Chế độ chơi đơn/nhiều người.
 - Giao diện: Chuột đặt tàu, bắn; phím tắt (ESC, F1-F5).
-- Mạng: Kết nối server, gửi/nhận tin, heartbeat.
-- AI: Nhiều cấp độ, học hỏi, debug bằng bản đồ nhiệt.
+- Mạng: Kết nối server.
+- AI: Nhiều cấp độ, học hỏi.
 - Cài đặt: Âm lượng, ngôn ngữ, lưu vào `preferences.json`.
 
 ---
